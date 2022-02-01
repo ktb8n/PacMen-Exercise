@@ -1,0 +1,61 @@
+
+#container {
+    width:auto;
+    height: 100vh;
+    border-style: dashed;
+    border-color:rgba(38, 224, 208, 0.548);
+    position: relative;
+}
+
+#controlCenter {
+    width: auto;
+    height: 10%;
+    text-align: center;
+    background-color: rgba(38, 224, 208, 0.548);
+    position: relative;
+}
+
+#buttons {
+    margin-right: 10px;
+    display:inline-flex;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100px;
+    height: 30px;
+}
+header h1 {
+    font-family: monospace;;
+    text-align: center;
+}
+#buttons > button {
+    padding: 5%;
+    text-align: center;
+    height:max-content
+}
+
+button.controls {
+    font-family: monospace;
+    padding: 5px;
+    margin: 5%;
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+button.reload {
+    font-family: monospace;
+    padding: 5px;
+    margin: 5%;
+    background-color: tomato;
+    color: white;
+}
+
+
+
+#factoryFloor {
+    width: auto;
+    height: 90%;
+    background-color: rgba(38, 224, 208, 0.548);
+}
